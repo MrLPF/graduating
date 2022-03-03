@@ -53,7 +53,7 @@ ROOT_URLCONF = 'netease.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'netaseapp/templates'],
+        'DIRS': [BASE_DIR / 'templates/neteaseapp'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -116,7 +116,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "neteaseapp/statics/neteaseapp")
+    os.path.join(BASE_DIR, "statics/neteaseapp")
 ]
 
 # Default primary key field type
